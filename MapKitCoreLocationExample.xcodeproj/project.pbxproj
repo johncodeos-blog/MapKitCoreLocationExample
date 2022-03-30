@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30CF657827F4659D0053181B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF657727F4659D0053181B /* MainViewController.swift */; };
+		30CF658427F46FE60053181B /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF658327F46FE60053181B /* UIHelper.swift */; };
+		30CF658627F46FF00053181B /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CF658527F46FF00053181B /* Colors.swift */; };
 		C2193A5F25C18A2C00ACEE57 /* PointsOfInterestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2193A5E25C18A2C00ACEE57 /* PointsOfInterestViewController.swift */; };
 		C2284DA125C05F7800FC3F91 /* GeofencesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2284DA025C05F7800FC3F91 /* GeofencesViewController.swift */; };
 		C22B7D6C25B6250F00C9AC0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C22B7D6B25B6250F00C9AC0B /* AppDelegate.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30CF657727F4659D0053181B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		30CF658327F46FE60053181B /* UIHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
+		30CF658527F46FF00053181B /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C2193A5E25C18A2C00ACEE57 /* PointsOfInterestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsOfInterestViewController.swift; sourceTree = "<group>"; };
 		C2284DA025C05F7800FC3F91 /* GeofencesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofencesViewController.swift; sourceTree = "<group>"; };
 		C22B7D6825B6250F00C9AC0B /* MapKitCoreLocationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapKitCoreLocationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30CF657D27F467D50053181B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				30CF658527F46FF00053181B /* Colors.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		30CF657F27F467D50053181B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				30CF658327F46FE60053181B /* UIHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		C2193A5C25C189D800ACEE57 /* PointsOfInterest */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +104,14 @@
 		C22B7D6A25B6250F00C9AC0B /* MapKitCoreLocationExample */ = {
 			isa = PBXGroup;
 			children = (
+				30CF657D27F467D50053181B /* Constants */,
+				30CF657F27F467D50053181B /* Helpers */,
 				C2662B1125CA039700123A6D /* Directions */,
 				C2193A5C25C189D800ACEE57 /* PointsOfInterest */,
 				C2284D9F25C05F5A00FC3F91 /* Geofences */,
 				C2C0C2CA25B8634600B36D2C /* UserLocation */,
 				C2C0C2C825B8633B00B36D2C /* Annotations */,
+				30CF657727F4659D0053181B /* MainViewController.swift */,
 				C22B7D6B25B6250F00C9AC0B /* AppDelegate.swift */,
 				C22B7D6D25B6250F00C9AC0B /* SceneDelegate.swift */,
 				C22B7D7125B6250F00C9AC0B /* Main.storyboard */,
@@ -193,11 +218,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2284DA125C05F7800FC3F91 /* GeofencesViewController.swift in Sources */,
+				30CF658627F46FF00053181B /* Colors.swift in Sources */,
 				C22B7D7025B6250F00C9AC0B /* UserLocationViewController.swift in Sources */,
 				C22B7D6C25B6250F00C9AC0B /* AppDelegate.swift in Sources */,
+				30CF658427F46FE60053181B /* UIHelper.swift in Sources */,
 				C22B7D6E25B6250F00C9AC0B /* SceneDelegate.swift in Sources */,
 				C2662B1325CA04FC00123A6D /* DirectionsViewController.swift in Sources */,
 				C2D715E325C5C2000020E847 /* DogAnnotationView.swift in Sources */,
+				30CF657827F4659D0053181B /* MainViewController.swift in Sources */,
 				C2193A5F25C18A2C00ACEE57 /* PointsOfInterestViewController.swift in Sources */,
 				C2C0C2CD25B8642300B36D2C /* AnnotationsViewController.swift in Sources */,
 			);
